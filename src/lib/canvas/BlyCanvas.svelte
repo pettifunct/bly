@@ -42,43 +42,37 @@
 	import { sketch } from './blyCanvas.js';
 
 	let container;
-	let p5Instance;
 
 	onMount(async () => {
-		// Dynamically import p5 only on client
-		const p5 = window.p5;
+		if (typeof window !== 'undefined') {
+			const script = document.createElement('script');
+			script.src = `${import.meta.env.BASE_URL}p5.min.js`;
 
+			script.onload = () => {
+				const p5 = window.p5;
+				if (!p5) {
+					console.error('p5.js failed to load');
+					return;
+				}
 
-		// Create p5 instance
-		p5Instance = new p5(sketch, container);
+				const instance = new p5(sketch, container);
 
-		const handleResize = () => {
-			p5Instance.resizeCanvas(window.innerWidth, window.innerHeight);
-		};
+				const handleResize = () => {
+					instance.resizeCanvas(window.innerWidth, window.innerHeight);
+				};
 
-		window.addEventListener('resize', handleResize);
+				window.addEventListener('resize', handleResize);
 
-		return () => {
-			window.removeEventListener('resize', handleResize);
-			p5Instance?.remove();
-		};
+				// Cleanup
+				return () => {
+					window.removeEventListener('resize', handleResize);
+					instance?.remove();
+				};
+			};
+
+			document.body.appendChild(script);
+		}
 	});
 </script>
 
 <div bind:this={container} class="canvas-wrapper"></div>
-
-<style>
-	.canvas-wrapper {
-		position: fixed;
-		top: 0;
-		left: 0;
-		width: 100vw;
-		height: 100vh;
-		z-index: -1;
-		overflow: hidden;
-	}
-
-	:global(canvas) {
-		display: block;
-	}
-</style>
