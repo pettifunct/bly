@@ -1,44 +1,41 @@
 <script>
-	// No logic needed for now
+	// No logic needed
 </script>
 
-<div class="flex min-h-screen w-full items-center justify-center bg-black px-2 py-6 text-white">
-	<pre class="max-w-full overflow-x-auto text-sm leading-snug text-white sm:text-base md:text-lg">
+<div class="min-h-screen w-full bg-black px-4 py-6 text-white flex items-center justify-center">
+	<pre
+		class="font-mono text-sm leading-snug break-words whitespace-pre-wrap text-center sm:text-base md:text-lg px-4 max-w-full"
+	>
 {`
-+============================================================+
-|                        [  TOKENOMICS  ]                    |
-|    Bly has 1B total supply. Here's how it’s distributed:   |
-+============================================================+
++===============================+
+         [  TOKENOMICS  ]         
++===============================+
 
-      [               Token Distribution               ]
-      | - 90% Community                                |
-      | - 10% Founder                                  |
+ [     Token Distribution    ]
+  | - 90% Community           | 
+ | - 10% Founder             |
 
-      [              Token Details                     ]
-      | 🌕 Total Supply: 1B                            |
-      | 🌐 Blockchain: Solana                          |
-      | 📦 Ticker: BLY                                 |
-      | 🚀 Initial Liquidity: 100% public-deployed     |
-      | 📝 Contract: Open Source + Verified            |
-      | 🔒 LP: Renounced                               |
-      | 🔁 Transfers: Open at Launch                   |
+  [       Token Details       ] 
+ | 🌕 Total Supply: 1B       |
+ | 🌐 Blockchain: Solana     |
+ | 📦 Ticker: BLY            |
+ | 🚀 Liquidity: 100% public |
+ | 📝 Contract: Verified     |
+ | 🔒 LP: Renounced          |
+ | 🔁 Transfers: Open        |
 
-      [                Launch Details                  ]
-      | 🔒 No Presale                                  |
-      | 🔒 No Whitelist                                |
-      | 🔒 No Team or VC                               |
-      | 🔒 10% Founder hard-capped allocation          |
-      | 🔒 LP Renounced                                |
-      | 🔒 Contract Verified & Immutable               |
+ [      Launch Details       ]
+ | 🔒 No Presale             |
+ | 🔒 No Whitelist           |
+ | 🔒 No Team or VC          |
+ | 🔒 10% Founder Cap        |
+ | 🔒 LP Renounced           |
+ | 🔒 Immutable Contract     |
 
-      [                Trading Details                 ]
-      | 🪙 Token Standard: SPL Token                   |
-      | 📈 Trading Venue: TBD                          |
-      | 📉 0% Tax                                      |
-
-      [              📈 Long-Term Vision               ]
-      | Bly is not just a token — it’s performance art |
-      | Each new holder changes the artwork forever    |
+ [      Trading Details      ]
+ | 🌑 SPL Token Standard     |
+  | 📈 Venue: TBD             | 
+ | 🧾 0% Tax                 |
 `}
 	</pre>
 </div>
