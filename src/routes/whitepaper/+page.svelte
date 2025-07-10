@@ -16,37 +16,44 @@
 
 <div class="min-h-screen w-full bg-black px-6 py-12 text-white">
 	<div class="mx-auto max-w-4xl">
-		<h1 class="mb-8 text-4xl font-bold md:text-5xl">Bly as Anti-Art</h1>
+		<h1 class="mb-8 text-4xl font-bold md:text-5xl">The Billion Dollar Donut</h1>
 
 		<p class="mb-4">
 			Bly is an art movement — a counterculture to the traditional art market that gatekeeps value
-			for the insider elites and wealthy collectors. It acts as a satire against the whole ecosystem
-			of high art in modern society. It does it by leveraging on the low-res, spinning ASCII donut
-			created in 2006 by Andy Sloane, a program called ‘donut.c’, and re-masters it as an evolving,
-			real-time performance art.
+			for the insider elites and wealthy collectors. It satirizes against the whole ecosystem of
+			high art in modern society. It does it by leveraging on the low-res, spinning ASCII donut
+			created in 2006 by Andy Sloane, a program called ‘donut.c’, and re-mastering it as an
+			evolving, real-time performance art.
 		</p>
 
 		<p class="mb-4">
 			It is the first-ever art cryptocurrency that rallies all holders as co-artists to jointly
 			contribute to an evolving piece of artwork — with the singular aim of flipping the art market
-			in value.
+			in market cap.
 		</p>
 
 		<p class="mb-4">
-			Bly is data-driven. It changes form based on live on-chain coin data. Beginning with
-			the classic ASCII donut, the artwork mutates dynamically as the holder count and other metrics
-			grow. For every 1,000 new holders, Bly visually transforms — becoming more complex, surreal,
-			and symbolic of the absurdist, memetic culture it represents.
+			Bly is data-driven. It changes form based on live on-chain data. Beginning with the classic
+			ASCII, the artwork mutates dynamically as the holder count, market cap, and other
+			metrics grow. For every 1,000 new holders, Bly visually transforms — becoming more complex and
+			symbolic of the absurdist, memetic culture it represents.
 		</p>
 
 		<p class="mb-8">
 			Below are the first 10 visual stages of Bly, tracking its evolution from 0 to 10,000 holders.
-			Beyond this, the community takes over: anyone can submit new character sets for future visual
-			upgrades by tagging
+			Beyond this number, the community takes over: anyone can submit their own character
+			sets(building units of the donut intead of ASCII)for future visual upgrades by tagging
 			<a href="https://twitter.com/pettifunct" target="_blank" class="ml-1 text-blue-400 underline"
 				>@pettifunct</a
 			> on X.
 		</p>
+
+		<div class="mb-6">An example of a character set:</div>
+		<div class="mx-auto">
+			<pre>
+                ['👾', '🛸', '👽', '🌌', '🌠', '🌀', '💫', '✨', '🧿', '🔮',]
+            </pre>
+		</div>
 
 		<!-- Grid of Donut Images -->
 		<div class="grid grid-cols-1 place-items-center gap-8 sm:grid-cols-2 md:grid-cols-3">
@@ -59,12 +66,11 @@
 		</div>
 
 		<div class="mt-12">
-            <div>You’re invited to co-create history.</div>
-            <br/>
-			Not just by owning a piece of Bly — but by helping it turn into the most expensive artwork
-			ever created (and possibly ever sold). More importantly, Bly aims to be remembered as <em
-				>the</em
-			> art for the people and by the people, against elitism — as a spinning donut.
+			<div>You’re invited to co-create history.</div>
+			<br />
+			Not just by owning a piece of Bly — but by helping it turn into the most expensive artwork ever
+			created (and possibly ever sold). More importantly, Bly aims to be remembered as <em>the</em> art
+			for the people and by the people, against elitism — as a spinning donut.
 		</div>
 	</div>
 </div>
