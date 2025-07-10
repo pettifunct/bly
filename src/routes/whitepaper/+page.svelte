@@ -50,9 +50,9 @@
 
 		<div class="mb-6">An example of a character set:</div>
 		<div class="mx-auto">
-			<pre>
+			
                 ['👾', '🛸', '👽', '🌌', '🌠', '🌀', '💫', '✨', '🧿', '🔮',]
-            </pre>
+            
 		</div>
 
 		<!-- Grid of Donut Images -->
