@@ -44,7 +44,12 @@
 	let container;
 	let p5Instance;
 
-	onMount(() => {
+	onMount(async () => {
+		// Dynamically import p5 only on client
+		const p5 = window.p5;
+
+
+		// Create p5 instance
 		p5Instance = new p5(sketch, container);
 
 		const handleResize = () => {
@@ -55,12 +60,11 @@
 
 		return () => {
 			window.removeEventListener('resize', handleResize);
-			p5Instance?.remove(); // fully clean up when navigating away
+			p5Instance?.remove();
 		};
 	});
 </script>
 
-<!-- Fullscreen wrapper -->
 <div bind:this={container} class="canvas-wrapper"></div>
 
 <style>
