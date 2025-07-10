@@ -34,8 +34,8 @@
 
 		<p class="mb-4">
 			Bly is data-driven. It changes form based on live on-chain data. Beginning with the classic
-			ASCII, the artwork mutates dynamically as the holder count, market cap, and other
-			metrics grow. For every 1,000 new holders, Bly visually transforms — becoming more complex and
+			ASCII, the artwork mutates dynamically as the holder count, market cap, and other metrics
+			grow. For every 1,000 new holders, Bly visually transforms — becoming more complex and
 			symbolic of the absurdist, memetic culture it represents.
 		</p>
 
@@ -68,9 +68,9 @@
 		<div class="mt-12">
 			<div>You’re invited to co-create history.</div>
 			<br />
-			Not just by owning a piece of Bly — but by helping it turn into the most expensive artwork ever
+			Not just by owning a piece of it — but by helping it turn into the most expensive artwork ever
 			created (and possibly ever sold). More importantly, Bly aims to be remembered as <em>the</em> art
-			for the people and by the people, against elitism — as a spinning donut.
+			for and by the people, against established elites — as a spinning donut.
 		</div>
 	</div>
 </div>
