@@ -21,7 +21,6 @@
  | 📦 Ticker: BLY            |
  | 🚀 Liquidity: 100% public |
  | 📝 Contract: Verified     |
- | 🔒 LP: Renounced          |
  | 🔁 Transfers: Open        |
 
  [      Launch Details       ]
