@@ -21,22 +21,22 @@
 		<p class="mb-4">
 			Bly is an art movement — a counterculture to the traditional art market that gatekeeps value
 			for the insider elites and wealthy collectors. It satirizes against the whole ecosystem of
-			high art in modern society. It does it by leveraging on the low-res, spinning ASCII donut
+			high art in modern society. It re-contextualizes the low-res, spinning ASCII donut
 			created in 2006 by Andy Sloane, a program called ‘donut.c’, and re-mastering it as an
 			evolving, real-time performance art.
 		</p>
 
 		<p class="mb-4">
-			It is the first-ever art cryptocurrency that rallies all holders as co-artists to jointly
+			It is the first art cryptocurrency that rallies all holders as co-artists to jointly
 			contribute to an evolving piece of artwork — with the singular aim of flipping the art market
 			in market cap.
 		</p>
 
 		<p class="mb-4">
-			Bly is data-driven. It changes form based on live on-chain data. Beginning with the classic
-			ASCII, the artwork mutates dynamically as the holder count, market cap, and other metrics
-			grow. For every 1,000 new holders, Bly visually transforms — becoming more complex and
-			symbolic of the absurdist, memetic culture it represents.
+			Bly is also data-driven. It changes form based on live on-chain data. Beginning with the
+			classic ASCII, the artwork mutates dynamically as the holder count, market cap, and other
+			metrics grow. For every 1,000 new holders, Bly visually transforms — becoming more symbolic of
+			the absurdist, memetic culture it represents.
 		</p>
 
 		<p class="mb-8">
@@ -49,11 +49,7 @@
 		</p>
 
 		<div class="mb-6">An example of a character set:</div>
-		<div class="mx-auto">
-			
-                ['👾', '🛸', '👽', '🌌', '🌠', '🌀', '💫', '✨', '🧿', '🔮',]
-            
-		</div>
+		<div class="mx-auto">['👾', '🛸', '👽', '🌌', '🌠', '🌀', '💫', '✨', '🧿', '🔮',]</div>
 
 		<!-- Grid of Donut Images -->
 		<div class="grid grid-cols-1 place-items-center gap-8 sm:grid-cols-2 md:grid-cols-3">
@@ -69,7 +65,7 @@
 			<div>You’re invited to co-create history.</div>
 			<br />
 			Not just by owning a piece of it — but by helping it turn into the most expensive artwork ever
-			created (and possibly ever sold). More importantly, Bly aims to be remembered as <em>the</em> art
+			created(and possibly ever sold). More importantly, Bly aims to be remembered as <em>the</em> art
 			for and by the people, against established elites — as a spinning donut.
 		</div>
 	</div>
