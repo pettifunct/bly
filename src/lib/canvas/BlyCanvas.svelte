@@ -1,39 +1,46 @@
 <script>
-	import { onMount } from 'svelte';
+	import { onMount, onDestroy } from 'svelte';
 	import { sketch } from './blyCanvas.js';
 
 	let container;
+	let instance = null;
 
-	onMount(async () => {
+	onMount(() => {
 		if (typeof window !== 'undefined') {
 			const script = document.createElement('script');
 			script.src = `${import.meta.env.BASE_URL}p5.min.js`;
 
 			script.onload = () => {
-				const p5 = window.p5;
-				if (!p5) {
-					console.error('p5.js failed to load');
-					return;
+				if (window.p5) {
+					// Clean up previous instance if any (IMPORTANT!)
+					if (instance) {
+						instance.remove();
+						instance = null;
+					}
+
+					instance = new window.p5(sketch, container);
+
+					window.addEventListener('resize', handleResize);
 				}
-
-				const instance = new p5(sketch, container);
-
-				const handleResize = () => {
-					instance.resizeCanvas(window.innerWidth, window.innerHeight);
-				};
-
-				window.addEventListener('resize', handleResize);
-
-				// Cleanup
-				return () => {
-					window.removeEventListener('resize', handleResize);
-					instance?.remove();
-				};
 			};
 
 			document.body.appendChild(script);
 		}
 	});
+
+	onDestroy(() => {
+		if (instance) {
+			instance.remove();
+			instance = null;
+		}
+		window.removeEventListener('resize', handleResize);
+	});
+
+	function handleResize() {
+		if (instance?.resizeCanvas) {
+			instance.resizeCanvas(window.innerWidth, window.innerHeight);
+		}
+	}
 </script>
 
 <div bind:this={container} class="canvas-wrapper"></div>
