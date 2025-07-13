@@ -21,9 +21,9 @@
 		<p class="mb-4">
 			Bly is an art movement — a counterculture to the traditional art market that gatekeeps value
 			for the insider elites and wealthy collectors. It satirizes against the whole ecosystem of
-			high art in modern society. It re-contextualizes the low-res, spinning ASCII donut
-			created in 2006 by Andy Sloane, a program called ‘donut.c’, and re-mastering it as an
-			evolving, real-time performance art.
+			high art in modern society. It re-contextualizes the low-res, spinning ASCII donut created in
+			2006 by Andy Sloane, a program called ‘donut.c’, and re-masters it as an evolving, real-time
+			performance art.
 		</p>
 
 		<p class="mb-4">
@@ -33,8 +33,8 @@
 		</p>
 
 		<p class="mb-4">
-			Bly is also data-driven. It changes form based on live on-chain data. Beginning with the
-			classic ASCII, the artwork mutates dynamically as the holder count, market cap, and other
+			Bly is also a data-driven project. It changes form based on live on-chain data. Beginning with
+			the classic ASCII, the artwork mutates dynamically as the holder count, market cap, and other
 			metrics grow. For every 1,000 new holders, Bly visually transforms — becoming more symbolic of
 			the absurdist, memetic culture it represents.
 		</p>
@@ -44,8 +44,8 @@
 			Beyond this number, the community takes over: anyone can submit their own character
 			sets(building units of the donut intead of ASCII)for future visual upgrades by tagging
 			<a href="https://twitter.com/pettifunct" target="_blank" class="ml-1 text-blue-400 underline"
-				>@pettifunct</a
-			> on X.
+				>@pettifunct
+			</a> on X.
 		</p>
 
 		<div class="mb-6">An example of a character set:</div>
@@ -64,7 +64,7 @@
 		<div class="mt-12">
 			<div>You’re invited to co-create history.</div>
 			<br />
-			Not just by owning a piece of it — but by helping it turn into the most expensive artwork ever
+			Not just by owning a piece of it — but by helpting it turn into the most expensive artwork ever
 			created(and possibly ever sold). More importantly, Bly aims to be remembered as <em>the</em> art
 			for and by the people, against established elites — as a spinning donut.
 		</div>
